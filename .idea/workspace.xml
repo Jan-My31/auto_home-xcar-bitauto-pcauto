@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="552d5fa5-a9ac-4b23-84f2-295de9a4166e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_koubei/koubei_Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_spider/autohome_url_Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autohome_koubei/koubei_Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autohome_spider/autohome_url_Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_koubei/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_koubei/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_koubei/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_koubei/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_koubei/autohome_koubei/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_koubei/autohome_koubei/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_koubei/autohome_koubei/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_koubei/autohome_koubei/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_koubei/autohome_koubei/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_koubei/autohome_koubei/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_koubei/autohome_koubei/spiders/koubei_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_koubei/autohome_koubei/spiders/koubei_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_koubei/新建文本文档.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_spider/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_spider/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_spider/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_spider/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_spider/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_spider/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_spider/autohome/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_spider/autohome/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_spider/autohome/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_spider/autohome/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_spider/autohome/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_spider/autohome/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_spider/autohome/spiders/autohome_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_spider/autohome/spiders/autohome_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_spider/autohome/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autohome_koubei/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/autohome_koubei/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autohome_koubei/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/autohome_koubei/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autohome_koubei/autohome_koubei/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/autohome_koubei/autohome_koubei/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autohome_koubei/autohome_koubei/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/autohome_koubei/autohome_koubei/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autohome_koubei/autohome_koubei/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/autohome_koubei/autohome_koubei/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autohome_koubei/autohome_koubei/spiders/koubei_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/autohome_koubei/autohome_koubei/spiders/koubei_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autohome_koubei/新建文本文档.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autohome_spider/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/autohome_spider/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autohome_spider/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/autohome_spider/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autohome_spider/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/autohome_spider/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autohome_spider/autohome/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/autohome_spider/autohome/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autohome_spider/autohome/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/autohome_spider/autohome/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autohome_spider/autohome/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/autohome_spider/autohome/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autohome_spider/autohome/spiders/autohome_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/autohome_spider/autohome/spiders/autohome_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autohome_spider/autohome/test.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/crawl_project$shiyongmanyi.coverage" NAME="shiyongmanyi Coverage Results" MODIFIED="1561532805035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Data_analysis_A-SUV" />
+    <SUITE FILE_PATH="coverage/crawl_project$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1561018535393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xcar" />
+    <SUITE FILE_PATH="coverage/crawl_project$koubei_Main.coverage" NAME="koubei_Main Coverage Results" MODIFIED="1563789203735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autohome_koubei" />
+    <SUITE FILE_PATH="coverage/crawl_project$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1561019413311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autohome.spiders" />
+    <SUITE FILE_PATH="coverage/crawl_project$.coverage" NAME="测试 Coverage Results" MODIFIED="1560742733292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pcauto" />
+    <SUITE FILE_PATH="coverage/crawl_project$reci.coverage" NAME="reci Coverage Results" MODIFIED="1561518212135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Data_analysis_A-SUV" />
+    <SUITE FILE_PATH="coverage/crawl_project$ceshi_1.coverage" NAME="ceshi_1 Coverage Results" MODIFIED="1560334389736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/crawl_project$pcauto_Main.coverage" NAME="pcauto_Main Coverage Results" MODIFIED="1561345624082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pcauto" />
+    <SUITE FILE_PATH="coverage/crawl_project$autohome_url_Main.coverage" NAME="autohome_url_Main Coverage Results" MODIFIED="1563786843884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autohome_spider" />
+    <SUITE FILE_PATH="coverage/crawl_project$test.coverage" NAME="test Coverage Results" MODIFIED="1561381389192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Fluent Python" />
+    <SUITE FILE_PATH="coverage/crawl_project$shiyongbumanyi.coverage" NAME="shiyongbumanyi Coverage Results" MODIFIED="1561533945925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Data_analysis_A-SUV" />
+    <SUITE FILE_PATH="coverage/crawl_project$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1561012774484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pcauto/pcauto" />
+    <SUITE FILE_PATH="coverage/crawl_project$save_redis.coverage" NAME="save_redis Coverage Results" MODIFIED="1561107787021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_spider/autohome" />
+    <SUITE FILE_PATH="coverage/crawl_project$koubei_Main__1_.coverage" NAME="koubei_Main (1) Coverage Results" MODIFIED="1561348581348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autohome_koubei" />
+    <SUITE FILE_PATH="coverage/crawl_project$autohome_Main.coverage" NAME="autohome_Main Coverage Results" MODIFIED="1561086935719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autohome" />
+    <SUITE FILE_PATH="coverage/crawl_project$main.coverage" NAME="main Coverage Results" MODIFIED="1562918940528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../fsdownload/proxy_pool/Run" />
+    <SUITE FILE_PATH="coverage/crawl_project$jingzhengquan.coverage" NAME="jingzhengquan Coverage Results" MODIFIED="1561368138596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Data analysis_A-SUV" />
+    <SUITE FILE_PATH="coverage/crawl_project$koubei.coverage" NAME="koubei Coverage Results" MODIFIED="1560009007829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/美誉度" />
+    <SUITE FILE_PATH="coverage/crawl_project$bitauto_Main.coverage" NAME="bitauto_Main Coverage Results" MODIFIED="1561079779171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bitauto" />
+    <SUITE FILE_PATH="coverage/crawl_project$bitauto_koubei__Main.coverage" NAME="bitauto_koubei__Main Coverage Results" MODIFIED="1563790096083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bitauto_koubei" />
+    <SUITE FILE_PATH="coverage/crawl_project$main__4_.coverage" NAME="main (4) Coverage Results" MODIFIED="1561019378943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autohome" />
+    <SUITE FILE_PATH="coverage/crawl_project$bbs_meiyudu.coverage" NAME="bbs_meiyudu Coverage Results" MODIFIED="1561523055294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Data_analysis_A-SUV" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autohome_spider/autohome/spiders/autohome_spider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitauto_koubei/bitauto_koubei/spiders/yc_koubei.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="90" column="16" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bitauto_koubei/bitauto_koubei/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="565">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitauto_koubei/bitauto_koubei__Main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autohome_koubei/koubei_Main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autohome_koubei/autohome_koubei/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitauto/bitauto/spiders/bitauto_forum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pcauto/pcauto/spiders/pcauto_forum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1200">
+              <caret line="145" selection-start-line="145" selection-end-line="145" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pcauto/pcauto/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pcauto/pcauto/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>山东荣放先锋版 落地需要多少钱</find>
+      <find>https://bbs.pcauto.com.cn/topic-18325458.html</find>
+      <find>前几天刚换的空气滤芯空调滤芯并且还是竹炭的，我驾驶习惯应该没问题，离目的地近了都是关了ac打开外循环吹自然风是通病还是啥原因</find>
+      <find>spiders</find>
+      <find>purchasing_date</find>
+      <find>release_date</find>
+      <find>(function)(.*?)(document)</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/autohome_koubei" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_spider/autohome/settings.py" />
+        <option value="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_spider/autohome/pipelines.py" />
+        <option value="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_spider/autohome/items.py" />
+        <option value="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_spider/autohome/save_redis.py" />
+        <option value="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_koubei/autohome_koubei/items.py" />
+        <option value="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_koubei/autohome_koubei/pipelines.py" />
+        <option value="$PROJECT_DIR$/../Data analysis_A-SUV/jingzhengquan.py" />
+        <option value="$PROJECT_DIR$/../Fluent Python/test.py" />
+        <option value="$PROJECT_DIR$/字段.py" />
+        <option value="/Volumes/mobile/数据备份/0611/热词/汽车之家热词.py" />
+        <option value="$PROJECT_DIR$/../Data analysis_A-SUV/reci.py" />
+        <option value="$PROJECT_DIR$/../Data_analysis_A-SUV/reci.py" />
+        <option value="$PROJECT_DIR$/../Data_analysis_A-SUV/koubei_reci.py" />
+        <option value="$PROJECT_DIR$/../Data_analysis_A-SUV/bbs_meiyudu.py" />
+        <option value="$PROJECT_DIR$/../Data_analysis_A-SUV/koubei_meiyudu.py" />
+        <option value="$PROJECT_DIR$/../Data_analysis_A-SUV/shiyongmanyi.py" />
+        <option value="$PROJECT_DIR$/../Data_analysis_A-SUV/shiyongbumanyi.py" />
+        <option value="$PROJECT_DIR$/autohome/autohome/test" />
+        <option value="$PROJECT_DIR$/autohome/test.py" />
+        <option value="$PROJECT_DIR$/autohome/autohome/spiders/autohome_forum.py" />
+        <option value="$PROJECT_DIR$/autohome/autohome/pipelines.py" />
+        <option value="$PROJECT_DIR$/xcar/xcar/settings.py" />
+        <option value="$PROJECT_DIR$/xcar/xcar/spiders/xcar_forum.py" />
+        <option value="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_koubei/autohome_koubei/spiders/koubei_spider.py" />
+        <option value="$PROJECT_DIR$/bitauto_koubei/bitauto_koubei/items.py" />
+        <option value="$PROJECT_DIR$/bitauto_koubei/bitauto_koubei/settings.py" />
+        <option value="$PROJECT_DIR$/竞争圈/jingzhengquan.py" />
+        <option value="$PROJECT_DIR$/热词.py" />
+        <option value="$PROJECT_DIR$/热词/热词.py" />
+        <option value="$PROJECT_DIR$/热词/论坛热词.py" />
+        <option value="$PROJECT_DIR$/热词/口碑热词.py" />
+        <option value="$PROJECT_DIR$/美誉度/口碑美誉度.py" />
+        <option value="$PROJECT_DIR$/美誉度/论坛美誉度.py" />
+        <option value="$PROJECT_DIR$/使用评价/shiyongbumanyi.py" />
+        <option value="$PROJECT_DIR$/使用评价/shiyongmanyi.py" />
+        <option value="$PROJECT_DIR$/wechat_spider/wechat_test.py" />
+        <option value="$PROJECT_DIR$/bitauto/bitauto/spiders/bitauto_forum.py" />
+        <option value="$PROJECT_DIR$/bitauto/bitauto/pipelines.py" />
+        <option value="$PROJECT_DIR$/bitauto/bitauto/middlewares.py" />
+        <option value="$PROJECT_DIR$/bitauto/bitauto/settings.py" />
+        <option value="$PROJECT_DIR$/../PycharmProjects/qichacha/config.py" />
+        <option value="$PROJECT_DIR$/../PycharmProjects/qichacha/get_insert.py" />
+        <option value="$PROJECT_DIR$/../PycharmProjects/qichacha/branch.py" />
+        <option value="$PROJECT_DIR$/autohome_koubei/autohome_koubei/spiders/koubei_spider.py" />
+        <option value="$PROJECT_DIR$/pcauto/pcauto/spiders/pcauto_forum.py" />
+        <option value="$PROJECT_DIR$/pcauto/pcauto/pipelines.py" />
+        <option value="$PROJECT_DIR$/pcauto/pcauto/settings.py" />
+        <option value="$PROJECT_DIR$/autohome_koubei/autohome_koubei/pipelines.py" />
+        <option value="$PROJECT_DIR$/bitauto_koubei/bitauto_koubei__Main.py" />
+        <option value="$PROJECT_DIR$/bitauto_koubei/bitauto_koubei/spiders/yc_koubei.py" />
+        <option value="$PROJECT_DIR$/bitauto_koubei/bitauto_koubei/pipelines.py" />
+      </list>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="UKCVGRfv" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="156" />
+    <option name="y" value="23" />
+    <option name="width" value="1145" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="crawl_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crawl_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawl_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crawl_project" type="462c0819:PsiDirectoryNode" />
+              <item name="bitauto_koubei" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawl_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crawl_project" type="462c0819:PsiDirectoryNode" />
+              <item name="bitauto_koubei" type="462c0819:PsiDirectoryNode" />
+              <item name="bitauto_koubei" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawl_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crawl_project" type="462c0819:PsiDirectoryNode" />
+              <item name="bitauto_koubei" type="462c0819:PsiDirectoryNode" />
+              <item name="bitauto_koubei" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/热词" />
+      <recent name="$PROJECT_DIR$/竞争圈" />
+      <recent name="$PROJECT_DIR$/声量" />
+      <recent name="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_spider" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/使用评价" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.bitauto_koubei__Main">
+    <configuration name="口碑美誉度" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="crawl_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/美誉度" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/美誉度/口碑美誉度.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="论坛美誉度" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="crawl_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/美誉度" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/美誉度/论坛美誉度.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="太平洋论坛热词" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="crawl_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/热词" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/热词/太平洋论坛热词.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="其他数据竞争圈" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="crawl_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/竞争圈" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/竞争圈/其他数据竞争圈.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="autohome_url_Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="crawl_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autohome_spider" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/autohome_spider/autohome_url_Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="bitauto_koubei__Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="crawl_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bitauto_koubei" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bitauto_koubei/bitauto_koubei__Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="koubei_Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="crawl_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autohome_koubei" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/autohome_koubei/koubei_Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="proxy_pool" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../fsdownload/proxy_pool/Run" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../fsdownload/proxy_pool/Run/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="shiyongbumanyi" type="PythonConfigurationType" factoryName="Python">
+      <module name="计算数据" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Data_analysis_A-SUV" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Data_analysis_A-SUV/shiyongbumanyi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="shiyongmanyi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="crawl_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/使用评价" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/使用评价/shiyongmanyi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.bitauto_koubei__Main" />
+        <item itemvalue="Python.koubei_Main" />
+        <item itemvalue="Python.autohome_url_Main" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.shiyongmanyi" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="552d5fa5-a9ac-4b23-84f2-295de9a4166e" name="Default Changelist" comment="" />
+      <created>1559532926129</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559532926129</updated>
+      <workItem from="1559532927660" duration="13579000" />
+      <workItem from="1559611925686" duration="41836000" />
+      <workItem from="1559717193222" duration="25000" />
+      <workItem from="1559721852084" duration="262000" />
+      <workItem from="1559723966819" duration="524000" />
+      <workItem from="1559725945297" duration="26000" />
+      <workItem from="1559726014181" duration="58000" />
+      <workItem from="1559784028587" duration="3059000" />
+      <workItem from="1559807409753" duration="943000" />
+      <workItem from="1559815094945" duration="3322000" />
+      <workItem from="1560127571741" duration="19842000" />
+      <workItem from="1560306320520" duration="276000" />
+      <workItem from="1560322859496" duration="1236000" />
+      <workItem from="1560325149152" duration="9594000" />
+      <workItem from="1560406974852" duration="22805000" />
+      <workItem from="1560492047467" duration="1493000" />
+      <workItem from="1560735002793" duration="7662000" />
+      <workItem from="1560844149741" duration="309000" />
+      <workItem from="1560844564282" duration="1901000" />
+      <workItem from="1560902013064" duration="925000" />
+      <workItem from="1560907273520" duration="320000" />
+      <workItem from="1560993824271" duration="6371000" />
+      <workItem from="1561000982976" duration="43604000" />
+      <workItem from="1561336804394" duration="404000" />
+      <workItem from="1561338319571" duration="48137000" />
+      <workItem from="1561600422120" duration="2190000" />
+      <workItem from="1561685087299" duration="5000" />
+      <workItem from="1561961925319" duration="1134000" />
+      <workItem from="1561963382726" duration="817000" />
+      <workItem from="1561964769052" duration="29601000" />
+      <workItem from="1562123565030" duration="2953000" />
+      <workItem from="1562135626762" duration="115000" />
+      <workItem from="1562135815965" duration="100000" />
+      <workItem from="1562136082012" duration="9703000" />
+      <workItem from="1562913322109" duration="5726000" />
+      <workItem from="1563758449435" duration="45000" />
+      <workItem from="1563786109090" duration="5041000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="285943000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="63" y="25" width="1145" height="777" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23209429" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.42481753" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49864006" weight="0.459854" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4337979" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3270073" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32924962" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32924962" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50135994" side_tool="true" weight="0.30948904" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.34744525" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.30958903" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32872504" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.058479533" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" />
+      <window_info anchor="right" id="Cargo" order="5" />
+      <window_info anchor="right" id="Database" order="6" side_tool="true" weight="0.050125312" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/crawl_project$pcauto_Main.coverage" NAME="pcauto_Main Coverage Results" MODIFIED="1561989110404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pcauto" />
+    <SUITE FILE_PATH="coverage/crawl_project$shiyongbumanyi__1_.coverage" NAME="shiyongbumanyi (1) Coverage Results" MODIFIED="1562144676484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/使用评价" />
+    <SUITE FILE_PATH="coverage/crawl_project$shiyongmanyi.coverage" NAME="shiyongmanyi Coverage Results" MODIFIED="1562144725240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/使用评价" />
+    <SUITE FILE_PATH="coverage/crawl_project$jingzhengquan.coverage" NAME="jingzhengquan Coverage Results" MODIFIED="1562123592059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/竞争圈" />
+    <SUITE FILE_PATH="coverage/crawl_project$autohome_Main.coverage" NAME="autohome_Main Coverage Results" MODIFIED="1561973136139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autohome" />
+    <SUITE FILE_PATH="coverage/crawl_project$koubei_Main.coverage" NAME="koubei_Main Coverage Results" MODIFIED="1562035899304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_koubei" />
+    <SUITE FILE_PATH="coverage/crawl_project$bitauto_koubei__Main.coverage" NAME="bitauto_koubei__Main Coverage Results" MODIFIED="1562058515148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bitauto_koubei" />
+    <SUITE FILE_PATH="coverage/crawl_project$.coverage" NAME="论坛美誉度 Coverage Results" MODIFIED="1562144520997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/美誉度" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../java对接项目/1.经销商及汽车之家口碑/汽车之家/代码/autohome_koubei/autohome_koubei/spiders/koubei_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1120">
+          <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autohome.spiders/autohome_spider/spiders/autohome_koubei.py" />
+    <entry file="file://$PROJECT_DIR$/autohome_spider/autohome/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="101" column="24" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitauto_koubei/bitauto_koubei/items.py" />
+    <entry file="file:///usr/local/lib/python3.7/site-packages/scrapy/utils/defer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car_data/car_data/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-393" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitauto_koubei/bitauto_koubei/settings.py" />
+    <entry file="file://$PROJECT_DIR$/竞争圈/竞争圈输出.csv" />
+    <entry file="file://$PROJECT_DIR$/热词/论坛热词.csv" />
+    <entry file="file://$PROJECT_DIR$/wechat_spider/wechat_test.py" />
+    <entry file="file://$PROJECT_DIR$/使用评价/shiyongbumanyi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/竞争圈/jingzhengquan.py" />
+    <entry file="file://$PROJECT_DIR$/美誉度/口碑美誉度.csv" />
+    <entry file="file://$PROJECT_DIR$/美誉度/论坛美誉度.csv" />
+    <entry file="file://$PROJECT_DIR$/使用评价/shiyongmanyi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/美誉度/口碑美誉度.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="40" column="191" selection-start-line="40" selection-start-column="102" selection-end-line="40" selection-end-column="191" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/美誉度/论坛美誉度.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="197" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/热词/论坛热词.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="135" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="193" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/热词/口碑热词.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pcauto/pcauto_Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitauto/bitauto_Main.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitauto/.scrapy/deltafetch/bitauto_forum.db">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../fsdownload/proxy_pool/Run/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autohome/autohome/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1211" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car_data/car_data/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="128" selection-start-line="128" selection-end-line="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitauto/bitauto/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitauto/bitauto/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="129" column="43" selection-start-line="129" selection-start-column="43" selection-end-line="129" selection-end-column="43" />
+          <folding>
+            <element signature="e#169#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car_data/car_data/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="74" column="3" selection-start-line="74" selection-start-column="3" selection-end-line="75" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitauto/bitauto/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PycharmProjects/qichacha/ceshi.html" />
+    <entry file="file://$PROJECT_DIR$/../PycharmProjects/qichacha/branch.py" />
+    <entry file="file://$PROJECT_DIR$/../PycharmProjects/qichacha/config.py" />
+    <entry file="file://$PROJECT_DIR$/../PycharmProjects/qichacha/driver_branch.py" />
+    <entry file="file://$PROJECT_DIR$/../PycharmProjects/qichacha/geckodriver.log" />
+    <entry file="file://$PROJECT_DIR$/../PycharmProjects/qichacha/get_insert.py" />
+    <entry file="file://$PROJECT_DIR$/../PycharmProjects/qichacha/headers_pool.py" />
+    <entry file="file://$PROJECT_DIR$/../PycharmProjects/qichacha/proxy_pool.py" />
+    <entry file="file://$PROJECT_DIR$/car_data/car_data/spiders/bitauto.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="141" column="63" lean-forward="true" selection-start-line="141" selection-start-column="63" selection-end-line="141" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PycharmProjects/qichacha/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autohome_spider/autohome_url_Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="38" lean-forward="true" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autohome_koubei/autohome_koubei/spiders/koubei_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="81" column="49" lean-forward="true" selection-start-line="81" selection-start-column="49" selection-end-line="81" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autohome_spider/autohome/spiders/autohome_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autohome_koubei/koubei_Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pcauto/pcauto/spiders/pcauto_forum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pcauto/pcauto/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pcauto/pcauto/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autohome_koubei/autohome_koubei/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitauto/bitauto/spiders/bitauto_forum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitauto_koubei/bitauto_koubei__Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitauto_koubei/bitauto_koubei/spiders/yc_koubei.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="90" column="16" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitauto_koubei/bitauto_koubei/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19631094" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

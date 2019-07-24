@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/Dashujujiance/autohome_spider/.idea/autohome_spider.iml" filepath="$USER_HOME$/Dashujujiance/autohome_spider/.idea/autohome_spider.iml" />
+      <module fileurl="file:///code/car_data/.idea/car_data.iml" filepath="/code/car_data/.idea/car_data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/crawl_project.iml" filepath="$PROJECT_DIR$/.idea/crawl_project.iml" />
+      <module fileurl="file://$USER_HOME$/fsdownload/proxy_pool/.idea/proxy_pool.iml" filepath="$USER_HOME$/fsdownload/proxy_pool/.idea/proxy_pool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Data_analysis_A-SUV/.idea/计算数据.iml" filepath="$PROJECT_DIR$/../Data_analysis_A-SUV/.idea/计算数据.iml" />
+    </modules>
+  </component>
+</project>
